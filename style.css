@@ -19,6 +19,7 @@ nav{
 .option{
     margin: 40px;
     cursor: pointer;
+    width: 90vw;
 }
 .symbol{
     margin: 80px;
