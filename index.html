@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/626a2b8de1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="display-flex">
+        <div class="heading">Rock Paper Scissor</div>
+    </nav>
+    <div class="option display-flex">
+        <div class="symbol"><i class="fa-solid fa-hand-fist" onclick="choose(0)"></i></div>
+        <div class="symbol"><i class="fa-solid fa-hand" onclick="choose(1)"></i></div>
+        <div class="symbol"><i class="fa-solid fa-hand-scissors" onclick="choose(2)"></i></div>
+    </div>
+    <div class="score display-flex">
+        <div class="score-box">
+            <div class="cen" id="user-score">
+                0
+            </div>
+            <div class="scoree cen">You</div>
+            </div>
+        <div class="score-box">
+            <div class="cen" id="comp-score">
+                0
+            </div>
+            <div class="scoree cen">Comp</div>
+            </div>
+    </div>
+    <div class="result">
+        <p id="Result">Choose One</p>
+    </div>
+</body>
+<script src="first.js"></script>
+</html>
